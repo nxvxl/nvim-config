@@ -5,6 +5,7 @@ filetype plugin indent on
 
 set title
 set number
+set relativenumber
 set tabstop=2
 set softtabstop=2
 set shiftwidth=2
@@ -14,6 +15,7 @@ set smartindent
 
 set cursorline
 set laststatus=2
+set noshowmode
 set background=dark
 set signcolumn=yes
 
@@ -40,6 +42,8 @@ if exists('+termguicolors')
   let &t_8b = "\<Esc>[48;2;%lu;%lu;%lum"
   set termguicolors
 endif
+
+set t_Co=256
 
 "let ayucolor="dark"
 "let g:airline_theme="ayu_dark"

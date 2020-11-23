@@ -1,9 +1,9 @@
 {
-    "eslint.enable": true,
-    "eslint.autoFixOnSave": false,
-    // "coc.preferences.formatOnSaveFiletypes": ["html", "javascript","css", "markdown"],
-    "prettier.eslintIntegration": true,
-    "prettier.tslintIntegration": true,
-    "vetur.format.defaultFormatter.html": "prettier",
-    "vetur.format.enable": true
+  "eslint.enable": true,
+  "eslint.autoFixOnSave": false,
+  // "coc.preferences.formatOnSaveFiletypes": ["html", "javascript","css", "markdown"],
+  "prettier.eslintIntegration": true,
+  "prettier.tslintIntegration": true,
+  "vetur.format.defaultFormatter.html": "prettier",
+  "vetur.format.enable": true
 }
