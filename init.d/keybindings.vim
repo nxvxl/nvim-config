@@ -10,7 +10,6 @@ nnoremap <C-h> :bp<CR>
 nnoremap <C-j> :bl<CR>
 nnoremap <C-k> :bf<CR>
 nnoremap <C-l> :bn<CR>
-nnoremap <C-w> :bd<CR>
 
 nnoremap <leader>bn :bn<CR>
 nnoremap <leader>bp :bp<CR>

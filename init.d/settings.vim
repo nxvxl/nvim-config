@@ -18,6 +18,7 @@ set laststatus=2
 set noshowmode
 set background=dark
 set signcolumn=yes
+set scrolloff=5
 
 
 set hidden
