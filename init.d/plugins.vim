@@ -31,10 +31,11 @@ Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
 Plug 'junegunn/fzf.vim'
 
 " Syntax Highlight
-" Plug 'sheerun/vim-polyglot'
-Plug 'yuezk/vim-js'
-Plug 'maxmellon/vim-jsx-pretty'
-Plug 'posva/vim-vue'
+Plug 'sheerun/vim-polyglot'
+"Plug 'yuezk/vim-js'
+"Plug 'maxmellon/vim-jsx-pretty'
+"Plug 'posva/vim-vue'
+"Plug 'digitaltoad/vim-pug'
 
 " Autocomplete
 Plug 'neoclide/coc.nvim', {'branch': 'release'}

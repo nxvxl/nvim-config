@@ -19,4 +19,4 @@ nnoremap <leader>bd :bd<CR>
 nnoremap <leader>bbd :bufdo bd<CR>
 
 " terminal
-tnoremap <ESC> <C-\><C-n>
+tnoremap <leader>\ <C-\><C-n>

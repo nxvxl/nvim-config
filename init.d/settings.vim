@@ -19,6 +19,9 @@ set noshowmode
 set background=dark
 set signcolumn=yes
 set scrolloff=5
+set nowrap
+set foldmethod=syntax
+set foldlevelstart=99 
 
 
 set hidden
