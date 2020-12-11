@@ -1,6 +1,6 @@
 let mapleader=";"
 
-nnoremap <C-p> :Files<CR>
+nnoremap <C-p> :GFiles<CR>
 
 map <leader>n :set relativenumber!<CR>
 map <leader>h :noh<CR>

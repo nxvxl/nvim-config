@@ -37,8 +37,11 @@ Plug 'sheerun/vim-polyglot'
 "Plug 'posva/vim-vue'
 "Plug 'digitaltoad/vim-pug'
 
-" Autocomplete
-Plug 'neoclide/coc.nvim', {'branch': 'release'}
+" LSP - Autocomplete
+" Plug 'neoclide/coc.nvim', {'branch': 'release'}
+
+Plug 'neovim/nvim-lspconfig'
+Plug 'nvim-lua/completion-nvim'
 
 Plug 'editorconfig/editorconfig-vim'
 
