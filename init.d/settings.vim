@@ -21,7 +21,9 @@ set signcolumn=yes
 set scrolloff=5
 set nowrap
 set foldmethod=syntax
-set foldlevelstart=99 
+set foldlevelstart=99
+set list
+set listchars=tab:\|\ ,trail:·,eol:↲
 
 
 set hidden
@@ -53,3 +55,4 @@ set t_Co=256
 "let g:airline_theme="ayu_dark"
 colorscheme dracula
 " hi Normal guibg=black
+highlight CursorLine guibg=#1d1e26
