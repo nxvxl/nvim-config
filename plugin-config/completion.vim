@@ -1,6 +1,6 @@
 " Config
 let g:completion_matching_strategy_list = ['exact', 'substring', 'fuzzy']
-let g:completion_enable_auto_popup = 0 " Disable auto popup
+" let g:completion_enable_auto_popup = 0 " Disable auto popup
 let g:completion_matching_smart_case = 1
 
 " Mappings

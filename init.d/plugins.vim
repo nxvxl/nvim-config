@@ -2,7 +2,7 @@ call plug#begin()
 
 " Themes
 Plug 'NLKNguyen/papercolor-theme'
-Plug 'dracula/vim', { 'as': 'dracula' }
+"Plug 'dracula/vim', { 'as': 'dracula' }
 Plug 'arcticicestudio/nord-vim'
 Plug 'adrian5/oceanic-next-vim'
 Plug 'sonph/onehalf', { 'rtp': 'vim' }
@@ -30,6 +30,10 @@ Plug 'airblade/vim-gitgutter'
 Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
 Plug 'junegunn/fzf.vim'
 
+Plug 'nvim-lua/popup.nvim'
+Plug 'nvim-lua/plenary.nvim'
+Plug 'nvim-telescope/telescope.nvim'
+
 " Syntax Highlight
 Plug 'sheerun/vim-polyglot'
 "Plug 'yuezk/vim-js'
@@ -42,6 +46,7 @@ Plug 'sheerun/vim-polyglot'
 
 Plug 'neovim/nvim-lspconfig'
 Plug 'nvim-lua/completion-nvim'
+" Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}
 
 Plug 'editorconfig/editorconfig-vim'
 
