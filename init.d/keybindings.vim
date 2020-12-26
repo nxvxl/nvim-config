@@ -20,3 +20,5 @@ nnoremap <leader>bbd :bufdo bd<CR>
 
 " terminal
 tnoremap <leader>\ <C-\><C-n>
+
+nnoremap <C-w>g :GitMessenger<CR>

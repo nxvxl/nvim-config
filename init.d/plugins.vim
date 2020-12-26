@@ -25,6 +25,7 @@ Plug 'vim-airline/vim-airline-themes'
 " Version Control
 Plug 'tpope/vim-fugitive'
 Plug 'airblade/vim-gitgutter'
+Plug 'rhysd/git-messenger.vim'
 
 " Fuzzy finder
 Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
@@ -36,7 +37,7 @@ Plug 'sheerun/vim-polyglot'
 "Plug 'maxmellon/vim-jsx-pretty'
 "Plug 'posva/vim-vue'
 "Plug 'digitaltoad/vim-pug'
-
+Plug 'mattn/emmet-vim'
 " Autocomplete
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 
