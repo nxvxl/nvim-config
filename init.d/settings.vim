@@ -59,6 +59,6 @@ set t_Co=256
 
 "let ayucolor="dark"
 "let g:airline_theme="ayu_dark"
-colorscheme one
+colorscheme moonlight
 " hi Normal guibg=black
 " highlight CursorLine guibg=#1d1e26
