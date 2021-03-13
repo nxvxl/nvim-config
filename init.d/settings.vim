@@ -25,6 +25,7 @@ set foldmethod=syntax
 set foldlevelstart=99
 set list
 set listchars=tab:\│\ ,trail:·,eol:↲
+set nohlsearch
 
 
 set hidden
